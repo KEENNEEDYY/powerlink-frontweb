@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 :root {
   --pwl-color-bg-one: #0C1F2E;  
+  --pwl-color-bg-two: #FFFFFF;  
+  --pwl-color-bg-tree: #0C1F2E;  
+  --pwl-color-bg-four: #0C1F2E;  
+  --pwl-color-bg-five: #0C1F2E;  
+  --pwl-color-bg-six: #0C1F2E;  
+  --pwl-color-bg-seven: #0C1F2E;  
+  --pwl-color-bg-eigth: #0C1F2E;  
 
-  --pwl-color-font-one: #ffff;
+  --pwl-color-font-one: #FFFFFF;
+  --pwl-color-font-two: #000000;
+  --pwl-color-font-tree: #585858;
 }
 
 *{
