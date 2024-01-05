@@ -1,0 +1,26 @@
+.pwl-tracking-main section{
+    width: 100%;
+    padding: 30px 20px;
+    min-height: 390px;
+}
+
+#pwl-tracking-section-one{
+    background-color: var(--pwl-color-bg-one);
+}
+
+#pwl-tracking-section-two{
+    background-color: var(--pwl-color-bg-two);
+}
+#pwl-tracking-section-tree{
+    background-color: var(--pwl-color-bg-tree);
+}
+#pwl-tracking-section-four{
+    background-color: var(--pwl-color-bg-two);
+}
+#pwl-tracking-section-five{
+    background-color: var(--pwl-color-bg-one);
+}
+#pwl-tracking-section-six{
+    background: linear-gradient(0deg, var(--pwl-color-bg-four) 50%, var(--pwl-color-bg-tree)  50%);
+    background-repeat: no-repeat;
+}

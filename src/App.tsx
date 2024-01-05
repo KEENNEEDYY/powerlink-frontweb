@@ -1,9 +1,10 @@
+import Tracking from "./routes/Tracking";
 
 export default function App() {
 
   return (
     <>
-      <h3>Hello Friend</h3>
+      <Tracking />
     </>
   )
 }
