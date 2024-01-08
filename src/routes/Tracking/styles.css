@@ -1,6 +1,7 @@
 .pwl-tracking-main section{
     width: 100%;
-    padding: 30px 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     min-height: 390px;
 }
 

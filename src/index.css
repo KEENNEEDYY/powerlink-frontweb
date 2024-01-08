@@ -13,6 +13,10 @@
   --pwl-color-font-one: #FFFFFF;
   --pwl-color-font-two: #000000;
   --pwl-color-font-tree: #585858;
+  --pwl-color-font-hover: #67C0ED;
+  --pwl-color-font-hover-two: #183c55bb;
+  --pwl-color-font-text-shadow: 0px 0px 25px rgba(103, 192, 237, 0.463);
+  --pwl-color-font-text-shadow-two: 0px 0px 25px #36d1dc52;
 }
 
 *{
@@ -32,6 +36,11 @@ html, body {
   color: var(--pwl-color-font-one);
 }
 
+body section{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .pwl-container{
   width: 100%;
   margin: 0 auto;
@@ -41,4 +50,19 @@ html, body {
   display: flex;    
   flex-direction: column;
   align-items: center;
+}
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+  body section{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+@media (min-width: 1400px) {
 }

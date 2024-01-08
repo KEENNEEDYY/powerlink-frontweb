@@ -1,0 +1,124 @@
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pwl-header{
+    padding: 17px 0;
+}
+
+.pwl-navbar{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 7vw;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pwl-powerlink-logo{ 
+    width: 66px;
+    height: 22px;
+}
+.pwl-powerlink-logo:hover{
+    cursor: pointer;
+} 
+
+.pwl-menu-itens{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pwl-menu-img{
+    width: 22px;
+    height: 22px;
+}
+.pwl-menu-img:hover{
+    background-color: var(--pwl-color-font-hover-two);
+    box-shadow: var(--pwl-color-font-text-shadow-two);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pwl-menu-text{
+    display: none;
+}
+.pwl-menu-text h3{
+    font-size: 12px;
+    font-weight: 500;
+}
+.pwl-menu-text h3:hover{
+    color: var(--pwl-color-font-hover);
+    text-shadow: var(--pwl-color-font-text-shadow);
+    cursor: pointer;
+}
+
+.pwl-social-media{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pwl-social-media img{
+    width: 22px;
+    height: 22px;
+}
+.pwl-social-media img:hover{
+    background-color: var(--pwl-color-font-hover);
+    box-shadow: var(--pwl-color-font-text-shadow);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media (min-width: 576px) {
+    .pwl-powerlink-logo{ 
+        width: calc(66px + 1vw);
+        height: calc(22px + 1vh);
+    }
+    .pwl-menu-text{
+        display: flex;
+        gap: 10px;
+    }
+    .pwl-menu-img{
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .pwl-powerlink-logo{
+        width: calc(100px + 2vw);
+        height: auto;
+    }
+    .pwl-menu-text h3{
+        font-size: calc(8px + 1vw);
+    }
+    .pwl-social-media img{
+        width: calc(22px + 1vw) ;
+        height: auto;
+    }
+}
+@media (min-width: 992px) {
+    .pwl-navbar{
+        gap: 12vw;
+    }
+    .pwl-menu-text{
+        gap: 19px;
+    }
+    .pwl-social-media{
+        gap: 8px;
+    }
+}
+@media (min-width: 1200px) {
+    .pwl-navbar{
+        gap: 10vw;
+        padding: 0 0;
+        padding-right: calc(18px + 1vw);
+    }
+    .pwl-powerlink-logo{
+        width: calc(200px + 1vw);
+        height: auto;
+    }
+}
+@media (min-width: 1400px) {}
