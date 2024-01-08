@@ -2,12 +2,103 @@
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
-    min-height: 390px;
 }
 
 #pwl-tracking-section-one{
     background-color: var(--pwl-color-bg-one);
+    background-image: url(/src/assets/section-one-backgroud.png);
+    background-repeat: no-repeat;
 }
+
+.pwl-tracking-section-one-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pwl-title-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+.pwl-title-one h1{
+    font-size: 16px;
+}
+.pwl-title-one p{
+    margin-top: 50px;
+    width: calc(180px + 2vw);
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 12px;
+}
+.pwl-button-one{
+    max-width: 234px;
+    max-height: 74px;
+    width: 105px;
+    height: 25px;
+    color: var(--pwl-color-font-two);    
+    font-weight: 700;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--pwl-color-font-hover);
+    border: 1px solid var(--pwl-color-font-hover);
+    border-radius: 40px;
+    margin-left: calc(320px - 105px - 60px);
+}
+
+.pwl-button-one:hover{
+    box-shadow: var(--pwl-color-font-text-shadow-two);
+    cursor: pointer;
+}
+
+.pwl-cellphone-one{
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .pwl-tracking-section-one-container{
+        flex-direction: row;
+    }
+    .pwl-title-one h1{
+        font-size: 22px;
+    }
+    .pwl-title-one p{
+        width: calc(200px + 4vw);
+    }
+    .pwl-cellphone-one{
+        display: unset;
+        width: calc(90px + 1vw);
+        height: 179px;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pwl-title-one h1{
+        font-size: 42px;
+    }
+    .pwl-title-one p{
+        width: calc(650px + 2vw);
+        font-size: 32px;
+    }
+    .pwl-cellphone-one{
+        display: unset;
+        width: calc(270px + 1vw);
+        height: auto;
+        margin-left: 50px;
+    }
+    .pwl-button-one{
+        font-size: 22px;
+        width: calc(230px + 1vw);
+        height: calc(70px + 1vw);
+    }
+}
+
 
 #pwl-tracking-section-two{
     background-color: var(--pwl-color-bg-two);
