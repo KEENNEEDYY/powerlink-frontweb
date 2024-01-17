@@ -10,20 +10,30 @@ export default function Header() {
         <>
             <header className="pwl-header">
                 <nav className="pwl-navbar">
-                    <img className="pwl-powerlink-logo" src={powerlinkImg} alt="Logo" />
+                    <a href="/">
+                        <img className="pwl-powerlink-logo" src={powerlinkImg} alt="Logo" />
+                    </a>
                     <div className="pwl-menu-itens">
                         <img className="pwl-menu-img" src={menuImg} alt="Menu" />    
                         <div className="pwl-menu-text">
-                            <h3>Home</h3>
-                            <h3>Sobre nós</h3>
-                            <h3>Catalog</h3>
-                            <h3>Contato</h3>
-                            <h3>Área do Cliente</h3>
+                            <h3 className="pwl-display-none">Home</h3>
+                            <h3 className="pwl-display-none">Sobre nós</h3>
+                            <h3 className="pwl-display-none">Catalog</h3>
+                            <a href="mailto:contato@powerlinkco.com.br" target='_blank'>
+                                <h3>Contato</h3>
+                            </a>
+                            <a href="https://monitoramento.powerlinkco.com.br/" target='_blank'>
+                                <h3>Área do Cliente</h3>
+                            </a>
                         </div>
                     </div>
                     <div className="pwl-social-media">
-                        <img src={instagramImg} alt="Instagram" />                        
-                        <img src={linkedinImg} alt="Linkedin" />                        
+                        <a href="https://www.instagram.com/powerlinkcompany?igsh=MTF3bnQ0bTNpa3Rvcw==" target='_blank'>
+                            <img src={instagramImg} alt="Instagram" />
+                        </a>
+                        <a href="https://www.linkedin.com/company/powerlink-co/" target='_blank'>
+                            <img src={linkedinImg} alt="Linkedin" />
+                        </a>    
                     </div>
                 </nav>
             </header>

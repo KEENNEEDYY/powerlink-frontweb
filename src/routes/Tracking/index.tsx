@@ -25,9 +25,12 @@ export default function Tracking() {
                                     do seu veículo por satélite e usando tecnologia 4G
                                 </p>
                             </div>
-                            <div className="pwl-button-one">
-                                Peça seu plano
-                            </div>
+                            <a target='_blank' href="https://api.whatsapp.com/send?phone=5531989870427&text=Ol%C3%A1,%20vi%20seu%20an%C3%BAncio%20pelo%20site%20e%20gostaria%20de%20conhecer%20seus%20planos%20para%20rastreamento%20veicular.">
+                                <div className="pwl-button-one">
+                                    Peça seu plano
+                                </div>
+                            </a>
+                            
                         </div>
                         <img className="pwl-cellphone-one" src={cellphoneOneImg} alt="Powerlinkcellphone" />
                     </div>
@@ -169,7 +172,11 @@ export default function Tracking() {
                                     <h5 className="pwl-seciotn-six-card-line-bottom">Alerta de cerca virtual</h5>
                                     <p>* CONSULTE CONDIÇÕES</p>
                                 </div>
-                                <div className="pwl-seciotn-six-card-button">Contratar</div>
+                                <div className="pwl-seciotn-six-card-button">
+                                    <a target='_blank' href="https://api.whatsapp.com/send?phone=5531989870427&text=Ol%C3%A1,%20vi%20seu%20an%C3%BAncio%20pelo%20site%20e%20gostaria%20de%20conhecer%20seus%20planos%20para%20rastreamento%20veicular.">
+                                        Contratar
+                                    </a>
+                                </div>
                             </div>
                             <div className="pwl-section-six-right">
                                 <img src={workersImg} alt="PowerLink"/>
