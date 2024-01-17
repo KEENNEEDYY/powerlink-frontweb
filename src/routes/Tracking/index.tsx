@@ -3,6 +3,7 @@ import frotaTwoImg from '../../assets/section-two-cars.png';
 import frotaThreeImg from '../../assets/section-three-frota.png';
 import mapFourImg from '../../assets/section-four-map.png';
 import foneHandFourImg from '../../assets/section-four-foneHand.png';
+import phoneFiveImg from '../../assets/section-five-image.png';
 
 import './styles.css';
 
@@ -86,17 +87,6 @@ export default function Tracking() {
                         </div>
                     </div>
                 </section>
-
-
-
-
-
-
-
-
-
-
-
                 <section id="pwl-tracking-section-four">
                     <div className="pwl-section-four-top-container">
                         <div className="pwl-section-four-top">
@@ -169,10 +159,18 @@ export default function Tracking() {
                             </div>
                         </div>
                         <div className="pwl-section-five-middle">
-                            <img src="images/section-five-image.png" alt="Powerlink" />
+                            <img src={phoneFiveImg} alt="Powerlink" />
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
 
 
 
