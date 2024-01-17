@@ -4,6 +4,8 @@ import frotaThreeImg from '../../assets/section-three-frota.png';
 import mapFourImg from '../../assets/section-four-map.png';
 import foneHandFourImg from '../../assets/section-four-foneHand.png';
 import phoneFiveImg from '../../assets/section-five-image.png';
+import carAlertImg from '../../assets/section-six-car-alert-image.png';
+import workersImg from '../../assets/section-six-wokers.png';
 
 import './styles.css';
 
@@ -115,90 +117,64 @@ export default function Tracking() {
                         <div className="pwl-four-footer"></div>
                     </div>
                 </section>
-
-
-
-
-
-
-
-
-
-
-
-                <section id="pwl-tracking-section-five">
-                    
-                <div className="pwl-section-five-top-container">
-                    <div className="pwl-section-five-top pwl-section-top">
-                        <div className="pwl-section-five-top-left-content">
-                            <div className="pwl-section-five-title">
-                                <h1>A escolha inteligente</h1>
-                                <h1>para sua</h1>
-                                <h1>segurança</h1>
-                            </div>
-                            <div className="pwl-section-five-bottom">
-                                <p>
-                                    Nossos rastreadores são resultado de um desenvolvimento que segue os padrões de
-                                    qualidade
-                                    mais elevados do mundo.
-                                </p>
-                            </div>
-                            <div className="pwl-section-five-bottom-list">
-                                <div className="pwl-section-five-bottom-list-line">
-                                    <span>✔</span>
-                                    <h3>Eles são resistentes</h3>
+                <section id="pwl-tracking-section-five">     
+                    <div className="pwl-section-five-top-container">
+                        <div className="pwl-section-five-top pwl-section-top">
+                            <div className="pwl-section-five-top-left-content">
+                                <div className="pwl-section-five-title">
+                                    <h1>A escolha inteligente</h1>
+                                    <h1>para sua</h1>
+                                    <h1>segurança</h1>
                                 </div>
-                                <div className="pwl-section-five-bottom-list-line">
-                                    <span>✔</span>
-                                    <h3>Não causam interferências na eletrônica do seu veículo</h3>
+                                <div className="pwl-section-five-bottom">
+                                    <p>
+                                        Nossos rastreadores são resultado de um desenvolvimento que segue os padrões de
+                                        qualidade
+                                        mais elevados do mundo.
+                                    </p>
                                 </div>
-                                <div className="pwl-section-five-bottom-list-line">
-                                    <span>✔</span>
-                                    <h3>São extremamente fáceis de instalar e usar</h3>
+                                <div className="pwl-section-five-bottom-list">
+                                    <div className="pwl-section-five-bottom-list-line">
+                                        <span>✔</span>
+                                        <h3>Eles são resistentes</h3>
+                                    </div>
+                                    <div className="pwl-section-five-bottom-list-line">
+                                        <span>✔</span>
+                                        <h3>Não causam interferências na eletrônica do seu veículo</h3>
+                                    </div>
+                                    <div className="pwl-section-five-bottom-list-line">
+                                        <span>✔</span>
+                                        <h3>São extremamente fáceis de instalar e usar</h3>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="pwl-section-five-middle">
-                            <img src={phoneFiveImg} alt="Powerlink" />
+                            <div className="pwl-section-five-middle">
+                                <img src={phoneFiveImg} alt="Powerlink" />
+                            </div>
                         </div>
                     </div>
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
                 </section>
                 <section id="pwl-tracking-section-six">
-                    
-                 <div className="pwl-section-six-container">
-                        <div className="pwl-section-six-left">
-                            <img src="images/section-six-car-alert-image.png" alt="PowerLink"/>
-                        </div>
-                        <div className="pwl-seciotn-six-card">
-                            <h4 className="">Plano</h4>
-                            <h5 className="pwl-seciotn-six-card-line-bottom">RASTREAMENTO 24H</h5>
-                            <h5 className="pwl-seciotn-six-card-line-bottom">APLICATIVO MÓVEL</h5>
-                            <h5 className="pwl-seciotn-six-card-line-bottom">CENTRAL 0800 - FURTO E ROUBO</h5>
-                            <h5 className="pwl-seciotn-six-card-line-bottom">Alerta de ignição</h5>
-                            <div className="pwl-seciotn-six-card-last-item">
-                                <h5 className="pwl-seciotn-six-card-line-bottom">Alerta de cerca virtual</h5>
-                                <p>* CONSULTE CONDIÇÕES</p>
+                    <div className="pwl-section-six-container">
+                            <div className="pwl-section-six-left">
+                                <img src={carAlertImg} alt="PowerLink"/>
                             </div>
-                            <div className="pwl-seciotn-six-card-button">Contratar</div>
-                        </div>
-                        <div className="pwl-section-six-right">
-                            <img src="images/section-six-wokers.png" alt="PowerLink"/>
-                        </div>
-                </div>
-                    
+                            <div className="pwl-seciotn-six-card">
+                                <h4 className="">Plano</h4>
+                                <h5 className="pwl-seciotn-six-card-line-bottom">RASTREAMENTO 24H</h5>
+                                <h5 className="pwl-seciotn-six-card-line-bottom">APLICATIVO MÓVEL</h5>
+                                <h5 className="pwl-seciotn-six-card-line-bottom">CENTRAL 0800 - FURTO E ROUBO</h5>
+                                <h5 className="pwl-seciotn-six-card-line-bottom">Alerta de ignição</h5>
+                                <div className="pwl-seciotn-six-card-last-item">
+                                    <h5 className="pwl-seciotn-six-card-line-bottom">Alerta de cerca virtual</h5>
+                                    <p>* CONSULTE CONDIÇÕES</p>
+                                </div>
+                                <div className="pwl-seciotn-six-card-button">Contratar</div>
+                            </div>
+                            <div className="pwl-section-six-right">
+                                <img src={workersImg} alt="PowerLink"/>
+                            </div>
+                    </div>
                 </section>
             </main>
         </>
