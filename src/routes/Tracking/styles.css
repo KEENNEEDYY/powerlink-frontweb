@@ -177,6 +177,9 @@
     .pwl-title-two h1{
         font-size: 42px;
     }
+    .pwl-title-two h1:nth-child(3){
+        font-size: 42px;
+    }
     .pwl-tracking-section-two-container img{
         width: 678px;
         height: 347px;
