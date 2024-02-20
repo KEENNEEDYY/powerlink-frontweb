@@ -5,6 +5,7 @@
   --pwl-color-bg-tree: #D9D9D9;  
   --pwl-color-bg-four: #3DB6E6;  
   --pwl-color-bg-five: #d9d9d9e6;  
+  --pwl-color-btn-one: #00285F;
   --pwl-color-btn-two: #309ED8;  
 
   --pwl-color-card-bg: #EDEDED;
@@ -55,6 +56,21 @@ body section{
 
 .pwl-display-none{
   display: none;
+}
+
+.pwl-button-primary{
+  color: var(--pwl-color-font-one);    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--pwl-color-btn-one);
+  border: 1px solid var(--pwl-color-btn-one);
+
+}
+
+.pwl-button-primary:hover{
+  box-shadow: var(--pwl-color-font-text-shadow-two);
+  cursor: pointer;
 }
 
 @media (min-width: 576px) {
