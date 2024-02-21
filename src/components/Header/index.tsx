@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import powerlinkImg from '../../assets/Logo.svg';
 import menuImg from '../../assets/hamburger.svg';
 import instagramImg from '../../assets/instagram.svg';
@@ -22,9 +23,9 @@ export default function Header() {
                             <a href="mailto:contato@powerlinkco.com.br" target='_blank'>
                                 <h3>Contato</h3>
                             </a>
-                            <a href="https://monitoramento.powerlinkco.com.br/" target='_blank'>
+                            <Link to="customerArea">
                                 <h3>Área do Cliente</h3>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="pwl-social-media">

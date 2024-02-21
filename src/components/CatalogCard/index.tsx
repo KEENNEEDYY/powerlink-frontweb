@@ -5,10 +5,11 @@ type Props = {
     imgUrl: string;
     itemDescription: string;
     textButton: string;
+    urlButton: string;
 }
 
 export default function CatalogCard(
-    {itemName, imgUrl, itemDescription, textButton} : Props
+    { itemName, imgUrl, itemDescription, textButton, urlButton }: Props
 ) {
 
     return (
@@ -20,9 +21,13 @@ export default function CatalogCard(
                     {itemDescription}
                 </i>
             </p>
+
             <button className="pwl-button-primary pwl-card-button">
-                {textButton}
+                <a href={urlButton} target='_blank'>
+                    {textButton}
+                </a>
             </button>
+
         </div>
     )
 }
