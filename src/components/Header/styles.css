@@ -103,7 +103,17 @@ header {
         height: calc(22px + 1vh);
     }
 
+    .pwl-menu-display-show {
+        flex-direction: row;
+    }
+
     .pwl-menu-text {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .pwl-menu-text .pwl-menu-hide {
         display: flex;
         gap: 10px;
     }
