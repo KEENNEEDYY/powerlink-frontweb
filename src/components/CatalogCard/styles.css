@@ -1,9 +1,9 @@
-h1{
+h1 {
     font-size: 16px;
     text-align: center;
 }
 
-p{
+p {
     text-align: justify;
     font-size: 10px;
     font-weight: 500;
@@ -12,7 +12,7 @@ p{
 }
 
 
-.pwl-section-card{
+.pwl-section-card {
     max-width: 300px;
     width: auto;
     height: 380px;
@@ -26,17 +26,30 @@ p{
     gap: 15px;
 }
 
-.pwl-section-card img{
+.pwl-section-card-item-description {
+    height: 72px;
+}
+
+.pwl-section-card img {
     width: 200px;
     height: auto;
 }
 
-.pwl-card-button{
-  max-height: 74px;
-  width: 100%;
-  min-height: 30px;
-  font-weight: 700;
-  font-size: 12px;
-  border-radius: 5px;
+.pwl-card-button {
+    max-height: 74px;
+    width: 100%;
+    min-height: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 5px;
 }
 
+@media (min-width:768px) {
+    .pwl-section-card {
+        max-height: 420px;
+    }
+
+    .pwl-section-card-item-description {
+        height: 80px;
+    }
+}

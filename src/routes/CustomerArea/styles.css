@@ -1,16 +1,17 @@
-#pwl-customer-area-section{
+#pwl-customer-area-section {
     background-image: url(../../assets/customer-area-backgroud.png);
     background-position: 50%;
     background-position-y: 50%;
     background-repeat: no-repeat;
-    background-size:cover ;
+    background-size: cover;
     min-height: 80vh;
     padding: 0 5%;
     padding-top: 8%;
     padding-bottom: 5%;
 }
 
-.pwl-customer-area-container{
+
+.pwl-customer-area-container {
     height: auto;
     display: flex;
     flex-direction: column;
@@ -18,7 +19,7 @@
     justify-content: center;
 }
 
-.pwl-customer-section{
+.pwl-customer-section {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -28,30 +29,37 @@
 }
 
 @media (min-width: 576px) {
-    #pwl-customer-area{
+    #pwl-customer-area {
         height: 100%;
     }
-    .pwl-customer-section{
+}
+
+@media (min-width:628px) {
+    .pwl-customer-section {
         gap: 100px;
         flex-direction: row;
     }
 }
 
-@media (min-width: 768px){
-    .pwl-customer-section{
+@media (min-width: 768px) {
+    .pwl-customer-section {
+        margin-top: 60px;
         gap: 200px;
     }
 }
-@media (min-width: 1124px){
-    .pwl-customer-section{
+
+@media (min-width: 1124px) {
+    .pwl-customer-section {
         gap: 300px;
     }
 }
+
 @media (min-width: 1400px) {
-    #pwl-customer-area{
+    #pwl-customer-area {
         background-size: cover;
     }
-    .pwl-customer-section{
+
+    .pwl-customer-section {
         gap: 400px;
     }
 }

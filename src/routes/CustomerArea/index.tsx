@@ -12,7 +12,7 @@ export default function CustomerArea() {
                         <div className="pwl-customer-section">
                             <CatalogCard
                                 imgUrl={carTrackingImg}
-                                itemName='Plataforma de rastreamento veívular'
+                                itemName='Plataforma de rastreamento veícular'
                                 itemDescription='
                             Aqui você poderá ter acesso a localização do seu veículo em tempo real e usar das 
                             diversas funções contratadas como: bloqueio/desbloqueio da ignição e muito mais.

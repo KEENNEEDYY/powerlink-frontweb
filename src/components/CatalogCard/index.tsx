@@ -16,11 +16,13 @@ export default function CatalogCard(
         <div className="pwl-section-card">
             <img src={imgUrl} alt="TrackingService" />
             <h1>{itemName}</h1>
-            <p>
-                <i>
-                    {itemDescription}
-                </i>
-            </p>
+            <div className="pwl-section-card-item-description">
+                <p>
+                    <i>
+                        {itemDescription}
+                    </i>
+                </p>
+            </div>
 
             <button className="pwl-button-primary pwl-card-button">
                 <a href={urlButton} target='_blank'>
