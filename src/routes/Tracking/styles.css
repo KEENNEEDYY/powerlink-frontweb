@@ -8,6 +8,11 @@
     background-color: var(--pwl-color-bg-one);
     background-image: url(/src/assets/section-one-backgroud.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pwl-tracking-section-one-container {
@@ -70,24 +75,35 @@
     color: var(--pwl-color-font-one);
 }
 
-@media (min-width: 576px) {
+@media (min-width: 620px) {
     .pwl-tracking-section-one-container {
         flex-direction: row;
     }
 
     .pwl-title-one h1 {
-        font-size: 22px;
+        font-size: 28px;
+    }
+
+    .pwl-title-one h1:nth-child(3) {
+        font-size: 28px;
     }
 
     .pwl-title-one p {
-        width: calc(200px + 4vw);
+        width: calc(300px + 5.8vw);
+        font-size: 24px;
     }
 
     .pwl-cellphone-one {
         display: unset;
-        width: calc(90px + 1vw);
-        height: 179px;
+        width: auto;
+        height: 400px;
         margin-left: 50px;
+    }
+
+    .pwl-button-one {
+        font-size: 22px;
+        width: calc(200px + 1vw);
+        height: calc(60px + 1vw);
     }
 }
 
