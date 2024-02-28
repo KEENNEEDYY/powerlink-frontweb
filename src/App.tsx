@@ -1,12 +1,18 @@
-import { Outlet } from "react-router-dom";
-import Header from "./components/Header";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import CustomerArea from "./routes/CustomerArea";
+import Home from "./routes/Home";
+import Tracking from "./routes/Tracking";
 
 export default function App() {
 
   return (
-    <>
-      <Header />
-      <Outlet />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route index element={<Tracking />} />
+          <Route path="customerArea" element={<CustomerArea />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
