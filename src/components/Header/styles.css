@@ -74,6 +74,12 @@ header {
     cursor: pointer;
 }
 
+.pwl-menu-active-item {
+    color: var(--pwl-color-font-hover);
+    text-shadow: var(--pwl-color-font-text-shadow);
+    cursor: pointer;
+}
+
 .pwl-social-media {
     display: flex;
     align-items: center;

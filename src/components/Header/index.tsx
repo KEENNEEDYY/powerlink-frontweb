@@ -1,18 +1,18 @@
-import { Link } from 'react-router-dom';
 import powerlinkImg from '../../assets/Logo.svg';
-import menuClose from '../../assets/hamburger.svg';
 import menuOpen from '../../assets/hamburger-open.svg';
+import menuClose from '../../assets/hamburger.svg';
 import instagramImg from '../../assets/instagram.svg';
 import linkedinImg from '../../assets/linkedin.svg';
 
-import './styles.css';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import './styles.css';
 
 export default function Header() {
 
-    const [active, setMode] = useState(false);
+    const [btnActive, setMode] = useState(false);
     const ToggleMode = () => {
-        setMode(!active);
+        setMode(!btnActive);
     }
 
     return (
@@ -24,28 +24,33 @@ export default function Header() {
                     </a>
                     <div className="pwl-menu-itens">
                         <div onClick={ToggleMode}>
-                            {!active &&
+                            {!btnActive &&
                                 <img className="pwl-menu-img" src={menuClose} alt="Menu" />
                             }
-                            {active &&
+                            {btnActive &&
                                 <>
                                     <img className="pwl-menu-img pwl-menu-display-show" src={menuOpen} alt="Menu" />
                                 </>
                             }
                         </div>
                         <div>
-                            <div className={active ? "pwl-menu-display-show" : "pwl-menu-text"}>
+                            <div className={btnActive ? "pwl-menu-display-show" : "pwl-menu-text"}>
                                 <h3 className="pwl-display-none">Home</h3>
                                 <h3 className="pwl-display-none">Sobre nós</h3>
                                 <h3 className="pwl-display-none">Catalog</h3>
-                                <a className={active ? "pwl-menu-display-show" : "pwl-menu-hide"}
+                                <a className={btnActive ? "pwl-menu-display-show" : "pwl-menu-hide"}
                                     href="mailto:contato@powerlinkco.com.br" target='_blank'>
                                     <h3>Contato</h3>
                                 </a>
-                                <Link className={active ? "pwl-menu-display-show" : "pwl-menu-hide"}
+                                <NavLink className={({ isActive }) => isActive ?
+                                    btnActive ? "pwl-menu-display-show pwl-menu-active-item" : "pwl-menu-hide pwl-menu-active-item"
+                                    :
+                                    btnActive ? "pwl-menu-display-show pwl-menu-hide" : "pwl-menu-hide pwl-menu-hide"
+                                }
+
                                     to="customerArea">
                                     <h3>Área do Cliente</h3>
-                                </Link>
+                                </NavLink>
                             </div>
                         </div>
                     </div>
