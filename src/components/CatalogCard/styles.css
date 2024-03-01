@@ -44,6 +44,10 @@ p {
     border-radius: 5px;
 }
 
+.pwl-card-button a {
+    width: 100%;
+}
+
 @media (min-width:768px) {
     .pwl-section-card {
         max-height: 420px;

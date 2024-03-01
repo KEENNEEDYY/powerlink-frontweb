@@ -24,7 +24,7 @@ export default function CatalogCard(
                 </p>
             </div>
 
-            <button className="pwl-button-primary pwl-card-button">
+            <button className="pwl-button-primary pwl-card-button" onClick={() => { }}>
                 <a href={urlButton} target='_blank'>
                     {textButton}
                 </a>
